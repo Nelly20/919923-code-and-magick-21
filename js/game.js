@@ -14,10 +14,10 @@ window.GameConstants = {
       return 1.337 * width;
     },
     getX: window.getWizardX || function (width) {
-      return width / 2.4;
+      return (width - 70) / 2;
     },
     getY: window.getWizardY || function (height) {
-      return 2 / 3;
+      return height / 3;
     }
   }
 };
